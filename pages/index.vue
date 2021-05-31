@@ -1,6 +1,27 @@
 <template>
   <div>
+ 
+<div class="rel">
+  <v-img
+class="image"
+justify-center
+  src="https://picsum.photos/id/11/500/300"
+>
 
+<v-container>
+  <v-card elevation="0" color="transparent" class="d-flex align-center justify-center" height="500">
+<v-card-text class="white--text font-weight-bold text-h2">
+Get The House
+</v-card-text>
+</v-card>
+</v-container>
+</v-img>
+
+</div>
+
+<v-container>
+
+ <v-btn color="primary">text</v-btn>
     <h1>Yes bro</h1>
     <p class="red--text">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque totam
@@ -171,6 +192,8 @@
       </v-btn>
     </v-card-actions>
   </v-card>  -->
+    
+</v-container>
   </div>
 </template>
 <script>
@@ -190,3 +213,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+.image{
+  height: 80vh;
+}
+</style>

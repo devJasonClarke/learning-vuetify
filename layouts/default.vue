@@ -54,10 +54,11 @@
     </v-navigation-drawer>
 
     <v-main>
-      <v-container>
+      <v-container fluid class="ma-0 pa-0">
         <nuxt />
       </v-container>
     </v-main>
+
   </v-app>
 </template>
 
