@@ -13,6 +13,7 @@
           <v-btn text :to="{ name: 'test' }">Test</v-btn>
           <v-btn text :to="{ name: 'inspire' }">Inspire</v-btn>
           <v-btn text :to="{ name: 'dashboard' }">Dashboard</v-btn>
+          <v-btn text :to="{ name: 'swiper' }">Swiper</v-btn>
           <v-btn text :to="{ name: 'toolbar' }">Toolbar</v-btn>
           <v-btn color="blue" class=" darken-4 mr-4" depressed dark
             >Sign Up</v-btn
@@ -22,7 +23,7 @@
       <v-divider></v-divider>
     </nav>
     <v-navigation-drawer v-model="drawer" absolute temporary>
-      <v-list nav dense>
+      <v-list>
         <v-list-item-group
           v-model="group"
           active-class="deep-purple--text text--accent-4"
@@ -44,6 +45,9 @@
 
           <v-list-item  link :to="{name: 'dashboard'}">
             <v-list-item-title>Dashboard</v-list-item-title>
+          </v-list-item>
+          <v-list-item  link :to="{name: 'swiper'}">
+            <v-list-item-title>Swiper</v-list-item-title>
           </v-list-item>
 
           <v-list-item  link :to="{name: 'toolbar'}">
